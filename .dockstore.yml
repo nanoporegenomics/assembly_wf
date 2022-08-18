@@ -1,0 +1,5 @@
+versionon: 1.2
+workflows:
+   -  name: shastaHapdupDenovo
+      subclass: WDL
+      primaryDescriptorPath: /wdl/workflows/shasta_hapdup_denovo.wdl
