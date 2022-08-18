@@ -7,7 +7,6 @@ import "../tasks/hapdup.wdl" as hapdup_t
 workflow structuralVariantsDenovoAssembly {
 
     input {
-        String sampleName
         File readsFile
         Int threads
     }
