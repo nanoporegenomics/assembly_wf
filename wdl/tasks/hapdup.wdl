@@ -29,6 +29,8 @@ task hapdup_t {
     File hapdupDual2 = "hapdup/hapdup_dual_2.fasta"
     File hapdupPhased1 = "hapdup/hapdup_phased_1.fasta"
     File hapdupPhased2 = "hapdup/hapdup_phased_2.fasta"
+    File hapdupPhaseBed1 = "hapdup/phased_blocks_hp1.bed"
+    File hapdupPhaseBed2 = "hapdup/phased_blocks_hp2.bed"
     File hapdupLog = "hapdup.log"
   }
 
